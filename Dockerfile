@@ -1,7 +1,7 @@
 #
 # Runs Hugo static site generator as a compiler
 #
-FROM databliss/hugo
+FROM databliss/docker-hugo
 MAINTAINER Randolph Kahle "randolph.kahle@databliss.net"
 
 WORKDIR /site
