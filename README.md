@@ -26,11 +26,11 @@ the root directory of the web site is:
 
 The options are:
 
-	* **--rm** will remove the Docker container created from the image after the compiler finishes.
+* **--rm** will remove the Docker container created from the image after the compiler finishes.
 
-	* -e sets the environment variable SITE_URL within the container. This is the URL for the website which is included in various ways when the site is generated.
+* -e sets the environment variable SITE_URL within the container. This is the URL for the website which is included in various ways when the site is generated.
 
-	* -v mounts a data volume in the container. The command will mount the present working directory (PWD) to the internal directory /site, which is the workspace defined in the containers.
+* -v mounts a data volume in the container. The command will mount the present working directory (PWD) to the internal directory /site, which is the workspace defined in the containers.
 
 ##Usage
 
