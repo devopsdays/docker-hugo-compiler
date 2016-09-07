@@ -1,8 +1,8 @@
 #
 # Runs Hugo static site generator as a compiler
 #
-FROM databliss/docker-hugo:0.15
-MAINTAINER Randolph Kahle "randolph.kahle@databliss.net"
+FROM devopsdays/docker-hugo:v0.16
+MAINTAINER Matt Stratton <matt.stratton@gmail.com>
 
 WORKDIR /site
 ENV SITE_URL="http://docker.local:1313"

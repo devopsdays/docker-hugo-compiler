@@ -4,12 +4,11 @@
 #
 # Purpose: Build the hugo compiler docker image on a local computer
 #
-# Author: Randolph Kahle, Databliss, LLC
+# Author: Matt Stratton
 #
-# Copyright: Randolph Kahle, 2016
+# Copyright: Matt Stratton, Randolph Kahle, 2016
 #
 # License: MIT
 #
 
-docker build -t databliss/hugo-compiler:0.15 .
-
+docker build -t devopsdays/hugo-compiler:0.16 .
