@@ -5,7 +5,7 @@ https://hub.docker.com/r/devopsdays/docker-hugo-compiler/ . Docker Hub will
 automatically update the creation of the Docker image when it detects any
 changes made to this repository.
 
-**devopsdays/docker-hugo-compiler** is an installation of Hugo release 0.20
+**devopsdays/docker-hugo-compiler** is an installation of Hugo release 0.21
 running on Alpine Linux release 3.4.
 
 
@@ -32,11 +32,11 @@ The options are:
 
 * **-v** mounts a data volume in the container. The command will mount the present working directory (```PWD```) to the internal directory ```/site```, which is the workspace defined in the containers.
 
-##Usage
+## Usage
 
 Create a directory in your computer, place a normal Hugo website definition and
 run the command (above). The result is that the generated website is placed in
 the directory ```../public```.
 
-##Credits
+## Credits
 Based upon databliss/docker-hugo-compiler by Randolph Kahle
