@@ -11,4 +11,4 @@
 # License: MIT
 #
 
-docker build -t devopsdays/hugo-compiler:0.22 .
+docker build -t devopsdays/hugo-compiler:0.23 .
