@@ -5,4 +5,4 @@
 # Purpose: Run the Hugo container as a compiler
 #
 
-docker run -v $(pwd):/site -e SITE_URL="${1}" devopsdays/docker-hugo-compiler:0.23
+docker run -v $(pwd):/site -e SITE_URL="${1}" devopsdays/docker-hugo-compiler:0.30.2
