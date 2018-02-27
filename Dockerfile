@@ -1,7 +1,7 @@
 #
 # Runs Hugo static site generator as a compiler
 #
-FROM devopsdays/docker-hugo:v0.30.2
+FROM devopsdays/docker-hugo:v0.36.1
 MAINTAINER Matt Stratton <matt.stratton@gmail.com>
 
 WORKDIR /site
